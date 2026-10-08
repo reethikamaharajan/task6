@@ -358,3 +358,62 @@ form{
     }
 
 }
+.quick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quick h4{
+    color:white;
+}
+.detail{
+    margin-left: 50px;
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .quick {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .detail {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .quick {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .quick h4 {
+        margin-bottom: 10px;
+    }
+
+    .detail {
+        margin-left: 0;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .quick nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+.quick1 a{
+    text-decoration: none;
+    color: black;
+}
+.quick1{
+    display: flex;
+    flex-direction: column;
+}
