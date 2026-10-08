@@ -367,7 +367,6 @@ form{
     color:white;
 }
 .detail{
-    margin-left: 50px;
     color:white;
 }
 
@@ -412,6 +411,7 @@ form{
 .quick1 a{
     text-decoration: none;
     color: black;
+    font-weight: bold;
 }
 .quick1{
     display: flex;
